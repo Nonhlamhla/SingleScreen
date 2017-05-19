@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:gravity="center"
+    tools:context="com.example.admin.singlescreen.MainActivity"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"> 
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:weightSum="1">
+
+        <TextView
+
+            android:text="Bombshell Lingerie.com"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:id="@+id/textView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:fontFamily="cursive"
+            android:textSize="36sp"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:layout_weight="0.11" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:fontFamily="casual"
+            android:textSize="12sp"
+            android:text="Bombshell lingerie is an online proudly South African lingerie retail store. Which is aimed at producing quality products which meet an average womans needs."
+            android:layout_marginBottom="34dp"
+            android:layout_above="@+id/imageView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        android:gravity="center"
+       >
+
+        <ImageView
+                 android:layout_width="295dp"
+                 android:layout_height="238dp"
+                 android:src="@drawable/image0"
+                 android:scaleType="centerCrop"
+                 android:id="@+id/imageView8"
+                 android:layout_above="@+id/textView4"
+                 android:layout_gravity="center_vertical"
+                 android:layout_marginBottom="44dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:text="Our goal and objective is to reach each and every woman in the world no matter the size or shape. As well as women who hav undergone mastectomy as well as maternity or nursing mothers. "
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:fontFamily="casual"
+            android:textSize="12sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="2dp"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
